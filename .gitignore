@@ -1,1 +1,5 @@
 .ipynb_checkpoints/ 
+BoneFractureYolo8/
+runs/
+*.pt
+matthew_local_context/
