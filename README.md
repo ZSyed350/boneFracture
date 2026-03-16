@@ -19,8 +19,18 @@
   - mAP50: 0.318 (31.8%)
   - mAP50-95: 0.119 (11.9%)
   - Precision: 0.410, Recall: 0.348
-  - **Best classes:** Forearm fracture (0.547), Shoulder fracture (0.552)
-  - **Worst class:** Elbow positive (0.034)
+  - **Per-class metrics (validation):** AP50 = Average Precision at 50% box overlap (not the same as Precision P). Full breakdown:
+
+    | Class              | Images | Instances | P     | R     | mAP50 | mAP50-95 |
+    |--------------------|--------|-----------|-------|-------|-------|----------|
+    | all                | 331    | 176       | 0.41  | 0.348 | 0.318 | 0.119    |
+    | elbow positive     | 28     | 29        | 0.127 | 0.103 | 0.034 | 0.012    |
+    | fingers positive   | 41     | 48        | 0.314 | 0.271 | 0.221 | 0.066    |
+    | forearm fracture   | 37     | 43        | 0.687 | 0.535 | 0.558 | 0.214    |
+    | shoulder fracture  | 31     | 36        | 0.669 | 0.583 | 0.557 | 0.219    |
+    | wrist positive     | 19     | 20        | 0.254 | 0.250 | 0.220 | 0.084    |
+
+    Best: forearm, shoulder. Worst: elbow.
 - Training stopped early at epoch 71 (patience=20), best model at epoch 51
 - Model saved to `runs/detect/bone_fracture_yolov8/weights/best.pt`
 
