@@ -1,0 +1,12 @@
+path: /Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/training_artifacts/BoneFractureYolo8_clean
+train: train/images
+val: valid/images
+test: test/images
+nc: 6
+names:
+- elbow positive
+- fingers positive
+- forearm fracture
+- humerus fracture
+- shoulder fracture
+- wrist positive

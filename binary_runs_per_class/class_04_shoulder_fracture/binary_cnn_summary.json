@@ -1,0 +1,36 @@
+{
+  "data_root": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/BoneFractureYolo8",
+  "mode": "has_class",
+  "class_id": 4,
+  "class_name": "shoulder fracture",
+  "normal_dir": null,
+  "label_description": "has class_id=4 (shoulder fracture) vs not",
+  "epochs_ran": 25,
+  "best_epoch_f1": 17,
+  "best_val_f1": 0.5675675675675677,
+  "best_val_accuracy": 0.9080459770114943,
+  "best_val_precision": 0.4883720930232558,
+  "best_val_recall": 0.6774193548387096,
+  "metrics_csv": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_04_shoulder_fracture/binary_cnn_metrics.csv",
+  "weights": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_04_shoulder_fracture/binary_cnn_best.pt",
+  "stats": {
+    "train": {
+      "n_pos": 299,
+      "n_neg": 3332,
+      "skipped_no_label": 0
+    },
+    "val": {
+      "n_pos": 31,
+      "n_neg": 317,
+      "skipped_no_label": 0
+    },
+    "class_name": "shoulder fracture"
+  },
+  "roc_auc_validation": 0.8361656660221838,
+  "threshold_youden": 0.602864001497834,
+  "youden_j": 0.6174824463213595,
+  "youden_val_precision": 0.4722222222222222,
+  "youden_val_recall": 0.5483870967741935,
+  "youden_val_f1": 0.5074626865671641,
+  "roc_json": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_04_shoulder_fracture/binary_roc.json"
+}

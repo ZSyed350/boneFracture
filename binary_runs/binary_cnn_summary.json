@@ -1,0 +1,29 @@
+{
+  "data_root": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/BoneFractureYolo8",
+  "mode": "has_class",
+  "class_id": 0,
+  "normal_dir": null,
+  "label_description": "has class_id=0 vs not",
+  "epochs_ran": 25,
+  "best_epoch_f1": 25,
+  "best_val_f1": 0.1702127659574468,
+  "best_val_accuracy": 0.8879310344827587,
+  "best_val_precision": 0.21052631578947367,
+  "best_val_recall": 0.14285714285714285,
+  "metrics_csv": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs/binary_cnn_metrics.csv",
+  "weights": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs/binary_cnn_best.pt",
+  "stats": {
+    "train": {
+      "n_pos": 306,
+      "n_neg": 3325,
+      "skipped_no_label": 0
+    },
+    "val": {
+      "n_pos": 28,
+      "n_neg": 320,
+      "skipped_no_label": 0
+    }
+  },
+  "roc_auc_validation": 0.7660714285714285,
+  "roc_json": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs/binary_roc.json"
+}

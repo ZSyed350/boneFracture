@@ -1,0 +1,36 @@
+{
+  "data_root": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/BoneFractureYolo8",
+  "mode": "has_class",
+  "class_id": 1,
+  "class_name": "fingers positive",
+  "normal_dir": null,
+  "label_description": "has class_id=1 (fingers positive) vs not",
+  "epochs_ran": 25,
+  "best_epoch_f1": 25,
+  "best_val_f1": 0.5897435897435899,
+  "best_val_accuracy": 0.9080459770114943,
+  "best_val_precision": 0.6216216216216216,
+  "best_val_recall": 0.5609756097560976,
+  "metrics_csv": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_01_fingers_positive/binary_cnn_metrics.csv",
+  "weights": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_01_fingers_positive/binary_cnn_best.pt",
+  "stats": {
+    "train": {
+      "n_pos": 433,
+      "n_neg": 3198,
+      "skipped_no_label": 0
+    },
+    "val": {
+      "n_pos": 41,
+      "n_neg": 307,
+      "skipped_no_label": 0
+    },
+    "class_name": "fingers positive"
+  },
+  "roc_auc_validation": 0.8916342257885119,
+  "threshold_youden": 0.2537326605227977,
+  "youden_j": 0.7005640740446493,
+  "youden_val_precision": 0.41975308641975306,
+  "youden_val_recall": 0.8292682926829268,
+  "youden_val_f1": 0.5573770491803278,
+  "roc_json": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_01_fingers_positive/binary_roc.json"
+}

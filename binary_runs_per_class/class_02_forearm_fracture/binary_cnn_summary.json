@@ -1,0 +1,36 @@
+{
+  "data_root": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/BoneFractureYolo8",
+  "mode": "has_class",
+  "class_id": 2,
+  "class_name": "forearm fracture",
+  "normal_dir": null,
+  "label_description": "has class_id=2 (forearm fracture) vs not",
+  "epochs_ran": 25,
+  "best_epoch_f1": 15,
+  "best_val_f1": 0.28571428571428575,
+  "best_val_accuracy": 0.8994252873563219,
+  "best_val_precision": 0.5833333333333334,
+  "best_val_recall": 0.1891891891891892,
+  "metrics_csv": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_02_forearm_fracture/binary_cnn_metrics.csv",
+  "weights": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_02_forearm_fracture/binary_cnn_best.pt",
+  "stats": {
+    "train": {
+      "n_pos": 283,
+      "n_neg": 3348,
+      "skipped_no_label": 0
+    },
+    "val": {
+      "n_pos": 37,
+      "n_neg": 311,
+      "skipped_no_label": 0
+    },
+    "class_name": "forearm fracture"
+  },
+  "roc_auc_validation": 0.6761970974189624,
+  "threshold_youden": 0.19503078029858173,
+  "youden_j": 0.339880072999044,
+  "youden_val_precision": 0.25,
+  "youden_val_recall": 0.4864864864864865,
+  "youden_val_f1": 0.3302752293577982,
+  "roc_json": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_02_forearm_fracture/binary_roc.json"
+}

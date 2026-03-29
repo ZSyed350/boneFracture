@@ -1,0 +1,6 @@
+{
+  "skipped": true,
+  "reason": "single_class_in_validation",
+  "n_positive": 0,
+  "n_negative": 348
+}

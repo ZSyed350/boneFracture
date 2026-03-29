@@ -1,0 +1,36 @@
+{
+  "data_root": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/BoneFractureYolo8",
+  "mode": "has_class",
+  "class_id": 5,
+  "class_name": "wrist positive",
+  "normal_dir": null,
+  "label_description": "has class_id=5 (wrist positive) vs not",
+  "epochs_ran": 25,
+  "best_epoch_f1": 22,
+  "best_val_f1": 0.39999999999999997,
+  "best_val_accuracy": 0.896551724137931,
+  "best_val_precision": 0.2926829268292683,
+  "best_val_recall": 0.631578947368421,
+  "metrics_csv": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_05_wrist_positive/binary_cnn_metrics.csv",
+  "weights": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_05_wrist_positive/binary_cnn_best.pt",
+  "stats": {
+    "train": {
+      "n_pos": 315,
+      "n_neg": 3316,
+      "skipped_no_label": 0
+    },
+    "val": {
+      "n_pos": 19,
+      "n_neg": 329,
+      "skipped_no_label": 0
+    },
+    "class_name": "wrist positive"
+  },
+  "roc_auc_validation": 0.9036954087346024,
+  "threshold_youden": 0.34338431686920995,
+  "youden_j": 0.7093265077587586,
+  "youden_val_precision": 0.2077922077922078,
+  "youden_val_recall": 0.8421052631578947,
+  "youden_val_f1": 0.33333333333333337,
+  "roc_json": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_05_wrist_positive/binary_roc.json"
+}
