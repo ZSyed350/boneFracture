@@ -3,4 +3,18 @@ BoneFractureYolo8/
 runs/
 *.pt
 matthew_local_context/
-Jenna_Data/
+
+# OS / editor noise
+.DS_Store
+
+# Jenna_Data: keep notebooks/docs, ignore large artifacts
+Jenna_Data/kagglehub/
+Jenna_Data/runs/
+Jenna_Data/.ipynb_checkpoints*/
+Jenna_Data/*.zip
+Jenna_Data/*.pt
+Jenna_Data/*.pth
+
+# Training artifacts / duplicates
+training_artifacts/**/images 2/
+training_artifacts/**/labels 2/
