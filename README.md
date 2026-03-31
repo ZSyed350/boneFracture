@@ -1,19 +1,24 @@
 # Bone Fracture Detection Project
 
-## Current Status
+## Dependencies
+- `kagglehub`
+- `opencv-python`
+- `matplotlib`
+- `numpy`
 
-### EDA & Data Cleaning (`EDA.ipynb`)
-- Added package installation cell for dependencies
-- Downloaded bone fracture dataset from Kaggle
-- Analyzed class distribution across train/val/test splits
-- **Data cleaning performed:**
-  - Merged "humerus" class (ID 4) → "humerus fracture" (ID 3)
-  - Reindexed remaining classes (5→4, 6→5)
-  - Removed 150 "fingers positive" samples (class imbalance)
-  - Augmented 75 "wrist positive" samples (data augmentation)
-- Updated `data.yaml` to reflect 6 classes (removed "humerus")
+## How to run the code
+### EDA
+1. Open Jupyter Notebook by writing `jupyter notebook` in the command line. Make sure you are already in the `ROOT` directory.
+2. Run all cells.
+3. Data will be available for use at the dataset path printed in cell 3.
 
-### Model Training (`train_model.ipynb`)
+### Training
+
+## Folder structure
+
+## Reproducibility instructions
+
+## Model Training (`train_model.ipynb`)
 - Trained YOLOv8n baseline model on cleaned dataset
 - **Results:**
   - mAP50: 0.318 (31.8%)
@@ -40,9 +45,3 @@
 3. **Address class imbalance:** Elbow positive needs more data/augmentation
 4. **Hyperparameter tuning:** Adjust learning rate, batch size, augmentation
 5. **Data quality:** Verify labels, especially for underperforming classes
-
-## Files
-- `EDA.ipynb` - Exploratory data analysis and cleaning
-- `train_model.ipynb` - YOLOv8 model training and evaluation
-- `BoneFractureYolo8/data.yaml` - Dataset configuration (6 classes)
-- `runs/` - Training outputs (excluded from git, see `.gitignore`)
