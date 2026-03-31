@@ -106,3 +106,10 @@ Large artifacts (dataset copies, zips, weights, runs) are ignored by `.gitignore
 
 ## Kaggle baseline comparison (optional claim)
 We can include a comparison to a popular Kaggle notebook baseline **only if** we cite the notebook link and ensure metrics are comparable (same split + metric definition). This repo currently does not store the Kaggle notebook URL/metrics, so add them here before making a “better than Kaggle” claim.
+
+## Future improvements
+1. **Larger model:** Try YOLOv8s or YOLOv8m for better accuracy
+2. **More training:** Increase epochs or disable early stopping
+3. **Address class imbalance:** Elbow positive needs more data/augmentation
+4. **Hyperparameter tuning:** Adjust learning rate, batch size, augmentation
+5. **Data quality:** Verify labels, especially for underperforming classes
