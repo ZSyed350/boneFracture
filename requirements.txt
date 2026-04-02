@@ -1,0 +1,11 @@
+ultralytics
+kagglehub
+opencv-python
+numpy
+matplotlib
+PyYAML
+torch
+torchvision
+Pillow
+tqdm
+scikit-learn
