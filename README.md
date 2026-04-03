@@ -26,7 +26,7 @@ MSE 446/623 course project (University of Waterloo). We train and evaluate objec
 - **`notebooks/train_model.ipynb`**: baseline YOLOv8 training + validation metrics table.
 - **`notebooks/train_model2.ipynb`**: controlled runs (longer training / controlled settings; artifacts under `results/training_artifacts/`).
 - **`scripts/train_model_binary.py`**: Simple-CNN binary baselines + ROC/AUC + per-class runs.
-- **`Jenna_Data/`**: additional team experiments (YOLO variants, YOLOv11, R-CNN prep notebooks, summary spreadsheet).
+- **`Training_Data/`**: additional team experiments (YOLO variants, YOLOv11, YOLOv8m, R-CNN prep notebooks, summary spreadsheet).
 - **`results/`**: saved metrics/plots from runs (`binary_runs/`, `binary_runs_per_class/`, `training_artifacts/`).
 
 ## Setup (reproducible environment)
@@ -96,8 +96,8 @@ Each class folder contains:
 - **YOLO detection metrics** (mAP/AP) evaluate **both** localization and correct class simultaneously (IoU match + class match).
 - **Binary CNN ROC/AUC** is threshold-free; we also compute **Youden’s J** to suggest an operating threshold that maximizes \(TPR - FPR\) on validation.
 
-## Team experiments (Jenna_Data)
-`Jenna_Data/` contains:
+## Team experiments (Training_Data)
+`Training_Data/` contains:
 - YOLO training notebooks (including YOLOv11 attempt)
 - R-CNN / COCO conversion preparation notebook
 - summary spreadsheet of YOLO runs
