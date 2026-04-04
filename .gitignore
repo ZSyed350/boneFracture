@@ -1,5 +1,27 @@
-.ipynb_checkpoints/ 
+.ipynb_checkpoints/
 BoneFractureYolo8/
 runs/
 *.pt
 matthew_local_context/
+
+# OS / editor noise
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jenna_Data: keep notebooks/docs, ignore large artifacts
+Jenna_Data/kagglehub/
+Jenna_Data/runs/
+Jenna_Data/.ipynb_checkpoints*/
+Jenna_Data/*.zip
+Jenna_Data/*.pt
+Jenna_Data/*.pth
+
+# Large / regenerable training artifacts (keep CSV/JSON/plots in results/binary_runs*)
+results/training_artifacts/
+
+# Training artifacts / duplicates
+training_artifacts/**/images 2/
+training_artifacts/**/labels 2/

@@ -1,0 +1,36 @@
+{
+  "data_root": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/BoneFractureYolo8",
+  "mode": "has_class",
+  "class_id": 3,
+  "class_name": "humerus fracture",
+  "normal_dir": null,
+  "label_description": "has class_id=3 (humerus fracture) vs not",
+  "epochs_ran": 25,
+  "best_epoch_f1": 1,
+  "best_val_f1": 0.0,
+  "best_val_accuracy": 1.0,
+  "best_val_precision": 0.0,
+  "best_val_recall": 0.0,
+  "metrics_csv": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_03_humerus_fracture/binary_cnn_metrics.csv",
+  "weights": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_03_humerus_fracture/binary_cnn_best.pt",
+  "stats": {
+    "train": {
+      "n_pos": 3,
+      "n_neg": 3628,
+      "skipped_no_label": 0
+    },
+    "val": {
+      "n_pos": 0,
+      "n_neg": 348,
+      "skipped_no_label": 0
+    },
+    "class_name": "humerus fracture"
+  },
+  "roc_auc_validation": null,
+  "threshold_youden": null,
+  "youden_j": null,
+  "youden_val_precision": null,
+  "youden_val_recall": null,
+  "youden_val_f1": null,
+  "roc_json": "/Users/matthewgerges/Documents/Waterloo/4A/MSE446/Term Project/boneFracture/binary_runs_per_class/class_03_humerus_fracture/binary_roc.json"
+}
